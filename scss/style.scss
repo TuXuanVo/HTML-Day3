@@ -1,0 +1,80 @@
+$font-family: 'Montserrat', sans-serif;
+$primay: #00B9EF;
+$bold : 500;
+$superBold : 800;
+
+body {
+    font-size: 16px;
+    font-family: $font-family;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.narBar span:first-child{
+    padding-left: 0;
+}
+
+.headerRight span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.language {
+    margin-left: 20px;
+}
+
+.activePage {
+    font-weight: $bold;
+    color: $primay;
+}
+
+.superRadiusBtn {
+    background-color: $primay;
+    color: white;
+    font-weight: $bold;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+
+.language span {
+    padding: 0;
+}
+
+.language {
+    border : #DAE5F2 solid 0.5px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.activeLanguage {
+    color : #DAE5F2;
+}
+
+// Body CSS
+
+
+.body .banner p {
+    font-size: 2rem;
+    font-weight: $superBold;
+    text-align: center;
+}
+
+// @media only screen and (min-width: 768px){
+//     .header{
+//         padding-left: 25px;
+//         padding-right: 25px;
+//     }
+//     .narBar{
+//         display: none;   
+//     }
+// }

@@ -1,0 +1,64 @@
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.narBar span:first-child {
+  padding-left: 0;
+}
+
+.headerRight span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.language {
+  margin-left: 20px;
+}
+
+.activePage {
+  font-weight: 500;
+  color: #00B9EF;
+}
+
+.superRadiusBtn {
+  background-color: #00B9EF;
+  color: white;
+  font-weight: 500;
+  padding: 3px 5px;
+  border-radius: 20px;
+}
+
+.language span {
+  padding: 0;
+}
+
+.language {
+  border: #DAE5F2 solid 0.5px;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+.activeLanguage {
+  color: #DAE5F2;
+}
+
+.body .banner p {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
